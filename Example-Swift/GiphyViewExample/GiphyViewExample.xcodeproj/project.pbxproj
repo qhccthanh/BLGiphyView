@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F454BC221D885AA400511312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC211D885AA400511312 /* AppDelegate.swift */; };
+		F454BC241D885AA400511312 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC231D885AA400511312 /* ViewController.swift */; };
+		F454BC271D885AA400511312 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F454BC251D885AA400511312 /* Main.storyboard */; };
+		F454BC291D885AA400511312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F454BC281D885AA400511312 /* Assets.xcassets */; };
+		F454BC2C1D885AA400511312 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F454BC2A1D885AA400511312 /* LaunchScreen.storyboard */; };
+		F454BC7B1D885B2100511312 /* NSDate+Couting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC361D885B2000511312 /* NSDate+Couting.swift */; };
+		F454BC7C1D885B2100511312 /* NSDictionary+TypeCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC371D885B2000511312 /* NSDictionary+TypeCast.swift */; };
+		F454BC7D1D885B2100511312 /* UIImageView+YLNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC391D885B2000511312 /* UIImageView+YLNetworking.m */; };
+		F454BC7E1D885B2100511312 /* UILabel+FitFontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC3A1D885B2000511312 /* UILabel+FitFontSize.swift */; };
+		F454BC7F1D885B2100511312 /* UIView+Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC3B1D885B2000511312 /* UIView+Constrain.swift */; };
+		F454BC801D885B2100511312 /* YLImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC3F1D885B2000511312 /* YLImageCache.m */; };
+		F454BC811D885B2100511312 /* YLImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC411D885B2000511312 /* YLImageDownloader.m */; };
+		F454BC821D885B2100511312 /* YLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC441D885B2000511312 /* YLSessionManager.m */; };
+		F454BC831D885B2100511312 /* TSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BC461D885B2000511312 /* TSMutableDictionary.m */; };
+		F454BC841D885B2100511312 /* UITouchDownGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC471D885B2000511312 /* UITouchDownGestureRecognizer.swift */; };
+		F454BC851D885B2100511312 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC481D885B2000511312 /* Utility.swift */; };
+		F454BC861D885B2100511312 /* BLLongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC4A1D885B2000511312 /* BLLongPressGesture.swift */; };
+		F454BC871D885B2100511312 /* PopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC4B1D885B2000511312 /* PopOver.swift */; };
+		F454BC881D885B2100511312 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC4E1D885B2000511312 /* UIImage+SwiftyGif.swift */; };
+		F454BC891D885B2100511312 /* UIImageView+GiphyNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC4F1D885B2000511312 /* UIImageView+GiphyNetworking.swift */; };
+		F454BC8A1D885B2100511312 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC501D885B2000511312 /* UIImageView+SwiftyGif.swift */; };
+		F454BC8B1D885B2100511312 /* YLImageDowloader+GifDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC511D885B2000511312 /* YLImageDowloader+GifDownload.swift */; };
+		F454BC8C1D885B2100511312 /* BLDisplayGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC531D885B2000511312 /* BLDisplayGifManager.swift */; };
+		F454BC8D1D885B2100511312 /* BLGIFCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC541D885B2000511312 /* BLGIFCache.swift */; };
+		F454BC8E1D885B2100511312 /* BLGiphyRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC551D885B2000511312 /* BLGiphyRequestManager.swift */; };
+		F454BC8F1D885B2100511312 /* BLGiphyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC571D885B2000511312 /* BLGiphyManager.swift */; };
+		F454BC901D885B2100511312 /* GiphyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC581D885B2000511312 /* GiphyInfo.swift */; };
+		F454BC911D885B2100511312 /* Delete Filled_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC5A1D885B2000511312 /* Delete Filled_dark.png */; };
+		F454BC921D885B2100511312 /* Delete Filled_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC5B1D885B2000511312 /* Delete Filled_light.png */; };
+		F454BC931D885B2100511312 /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC5C1D885B2000511312 /* Globe.png */; };
+		F454BC941D885B2100511312 /* Happy Filled_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC5D1D885B2000511312 /* Happy Filled_dark.png */; };
+		F454BC951D885B2100511312 /* Happy Filled_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC5E1D885B2000511312 /* Happy Filled_light.png */; };
+		F454BC961D885B2100511312 /* Happy_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC5F1D885B2000511312 /* Happy_dark.png */; };
+		F454BC971D885B2100511312 /* Happy_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC601D885B2000511312 /* Happy_light.png */; };
+		F454BC981D885B2100511312 /* Home Filled_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC611D885B2000511312 /* Home Filled_dark.png */; };
+		F454BC991D885B2100511312 /* Home Filled_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC621D885B2000511312 /* Home Filled_light.png */; };
+		F454BC9A1D885B2100511312 /* Home_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC631D885B2000511312 /* Home_dark.png */; };
+		F454BC9B1D885B2100511312 /* Home_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC641D885B2000511312 /* Home_light.png */; };
+		F454BC9C1D885B2100511312 /* Line Chart Filled_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC651D885B2000511312 /* Line Chart Filled_dark.png */; };
+		F454BC9D1D885B2100511312 /* Line Chart Filled_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC661D885B2000511312 /* Line Chart Filled_light.png */; };
+		F454BC9E1D885B2100511312 /* Line Chart_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC671D885B2000511312 /* Line Chart_dark.png */; };
+		F454BC9F1D885B2100511312 /* Line Chart_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC681D885B2000511312 /* Line Chart_light.png */; };
+		F454BCA01D885B2100511312 /* ring-alt.gif in Resources */ = {isa = PBXBuildFile; fileRef = F454BC691D885B2000511312 /* ring-alt.gif */; };
+		F454BCA11D885B2100511312 /* ripple-80.gif in Resources */ = {isa = PBXBuildFile; fileRef = F454BC6A1D885B2000511312 /* ripple-80.gif */; };
+		F454BCA21D885B2100511312 /* Time Filled_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC6B1D885B2000511312 /* Time Filled_dark.png */; };
+		F454BCA31D885B2100511312 /* Time Filled_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC6C1D885B2000511312 /* Time Filled_light.png */; };
+		F454BCA41D885B2100511312 /* Time_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC6D1D885B2000511312 /* Time_dark.png */; };
+		F454BCA51D885B2100511312 /* Time_light.png in Resources */ = {isa = PBXBuildFile; fileRef = F454BC6E1D885B2000511312 /* Time_light.png */; };
+		F454BCA61D885B2100511312 /* BLCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC701D885B2000511312 /* BLCollectionViewFlowLayout.swift */; };
+		F454BCA71D885B2100511312 /* BLGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC711D885B2000511312 /* BLGif.swift */; };
+		F454BCA81D885B2100511312 /* BLGifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC721D885B2000511312 /* BLGifView.swift */; };
+		F454BCA91D885B2100511312 /* BLGiphyBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC731D885B2000511312 /* BLGiphyBottomBarView.swift */; };
+		F454BCAA1D885B2100511312 /* BLGiphyButtonControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC741D885B2000511312 /* BLGiphyButtonControl.swift */; };
+		F454BCAB1D885B2100511312 /* BLGiphyCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC751D885B2100511312 /* BLGiphyCollectionView.swift */; };
+		F454BCAC1D885B2100511312 /* BLGiphyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC761D885B2100511312 /* BLGiphyCollectionViewCell.swift */; };
+		F454BCAD1D885B2100511312 /* BLGiphyToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC771D885B2100511312 /* BLGiphyToastView.swift */; };
+		F454BCAE1D885B2100511312 /* BLGiphyTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC781D885B2100511312 /* BLGiphyTopBarView.swift */; };
+		F454BCAF1D885B2100511312 /* BLGiphyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F454BC791D885B2100511312 /* BLGiphyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F454BC1E1D885AA400511312 /* GiphyViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphyViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F454BC211D885AA400511312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F454BC231D885AA400511312 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F454BC261D885AA400511312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F454BC281D885AA400511312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F454BC2B1D885AA400511312 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F454BC2D1D885AA400511312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F454BC361D885B2000511312 /* NSDate+Couting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Couting.swift"; sourceTree = "<group>"; };
+		F454BC371D885B2000511312 /* NSDictionary+TypeCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+TypeCast.swift"; sourceTree = "<group>"; };
+		F454BC381D885B2000511312 /* UIImageView+YLNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YLNetworking.h"; sourceTree = "<group>"; };
+		F454BC391D885B2000511312 /* UIImageView+YLNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YLNetworking.m"; sourceTree = "<group>"; };
+		F454BC3A1D885B2000511312 /* UILabel+FitFontSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+FitFontSize.swift"; sourceTree = "<group>"; };
+		F454BC3B1D885B2000511312 /* UIView+Constrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constrain.swift"; sourceTree = "<group>"; };
+		F454BC3D1D885B2000511312 /* int_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = int_type.h; sourceTree = "<group>"; };
+		F454BC3E1D885B2000511312 /* YLImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageCache.h; sourceTree = "<group>"; };
+		F454BC3F1D885B2000511312 /* YLImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageCache.m; sourceTree = "<group>"; };
+		F454BC401D885B2000511312 /* YLImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageDownloader.h; sourceTree = "<group>"; };
+		F454BC411D885B2000511312 /* YLImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageDownloader.m; sourceTree = "<group>"; };
+		F454BC421D885B2000511312 /* YLNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLNetworking.h; sourceTree = "<group>"; };
+		F454BC431D885B2000511312 /* YLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSessionManager.h; sourceTree = "<group>"; };
+		F454BC441D885B2000511312 /* YLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSessionManager.m; sourceTree = "<group>"; };
+		F454BC451D885B2000511312 /* TSMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMutableDictionary.h; sourceTree = "<group>"; };
+		F454BC461D885B2000511312 /* TSMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMutableDictionary.m; sourceTree = "<group>"; };
+		F454BC471D885B2000511312 /* UITouchDownGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITouchDownGestureRecognizer.swift; sourceTree = "<group>"; };
+		F454BC481D885B2000511312 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F454BC4A1D885B2000511312 /* BLLongPressGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLLongPressGesture.swift; sourceTree = "<group>"; };
+		F454BC4B1D885B2000511312 /* PopOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOver.swift; sourceTree = "<group>"; };
+		F454BC4E1D885B2000511312 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		F454BC4F1D885B2000511312 /* UIImageView+GiphyNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+GiphyNetworking.swift"; sourceTree = "<group>"; };
+		F454BC501D885B2000511312 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		F454BC511D885B2000511312 /* YLImageDowloader+GifDownload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YLImageDowloader+GifDownload.swift"; sourceTree = "<group>"; };
+		F454BC531D885B2000511312 /* BLDisplayGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLDisplayGifManager.swift; sourceTree = "<group>"; };
+		F454BC541D885B2000511312 /* BLGIFCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGIFCache.swift; sourceTree = "<group>"; };
+		F454BC551D885B2000511312 /* BLGiphyRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyRequestManager.swift; sourceTree = "<group>"; };
+		F454BC571D885B2000511312 /* BLGiphyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyManager.swift; sourceTree = "<group>"; };
+		F454BC581D885B2000511312 /* GiphyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyInfo.swift; sourceTree = "<group>"; };
+		F454BC5A1D885B2000511312 /* Delete Filled_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete Filled_dark.png"; sourceTree = "<group>"; };
+		F454BC5B1D885B2000511312 /* Delete Filled_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Delete Filled_light.png"; sourceTree = "<group>"; };
+		F454BC5C1D885B2000511312 /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Globe.png; sourceTree = "<group>"; };
+		F454BC5D1D885B2000511312 /* Happy Filled_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Happy Filled_dark.png"; sourceTree = "<group>"; };
+		F454BC5E1D885B2000511312 /* Happy Filled_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Happy Filled_light.png"; sourceTree = "<group>"; };
+		F454BC5F1D885B2000511312 /* Happy_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Happy_dark.png; sourceTree = "<group>"; };
+		F454BC601D885B2000511312 /* Happy_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Happy_light.png; sourceTree = "<group>"; };
+		F454BC611D885B2000511312 /* Home Filled_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Filled_dark.png"; sourceTree = "<group>"; };
+		F454BC621D885B2000511312 /* Home Filled_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Filled_light.png"; sourceTree = "<group>"; };
+		F454BC631D885B2000511312 /* Home_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_dark.png; sourceTree = "<group>"; };
+		F454BC641D885B2000511312 /* Home_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home_light.png; sourceTree = "<group>"; };
+		F454BC651D885B2000511312 /* Line Chart Filled_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Chart Filled_dark.png"; sourceTree = "<group>"; };
+		F454BC661D885B2000511312 /* Line Chart Filled_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Chart Filled_light.png"; sourceTree = "<group>"; };
+		F454BC671D885B2000511312 /* Line Chart_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Chart_dark.png"; sourceTree = "<group>"; };
+		F454BC681D885B2000511312 /* Line Chart_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Line Chart_light.png"; sourceTree = "<group>"; };
+		F454BC691D885B2000511312 /* ring-alt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ring-alt.gif"; sourceTree = "<group>"; };
+		F454BC6A1D885B2000511312 /* ripple-80.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ripple-80.gif"; sourceTree = "<group>"; };
+		F454BC6B1D885B2000511312 /* Time Filled_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time Filled_dark.png"; sourceTree = "<group>"; };
+		F454BC6C1D885B2000511312 /* Time Filled_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Time Filled_light.png"; sourceTree = "<group>"; };
+		F454BC6D1D885B2000511312 /* Time_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time_dark.png; sourceTree = "<group>"; };
+		F454BC6E1D885B2000511312 /* Time_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Time_light.png; sourceTree = "<group>"; };
+		F454BC701D885B2000511312 /* BLCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		F454BC711D885B2000511312 /* BLGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGif.swift; sourceTree = "<group>"; };
+		F454BC721D885B2000511312 /* BLGifView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGifView.swift; sourceTree = "<group>"; };
+		F454BC731D885B2000511312 /* BLGiphyBottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyBottomBarView.swift; sourceTree = "<group>"; };
+		F454BC741D885B2000511312 /* BLGiphyButtonControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyButtonControl.swift; sourceTree = "<group>"; };
+		F454BC751D885B2100511312 /* BLGiphyCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyCollectionView.swift; sourceTree = "<group>"; };
+		F454BC761D885B2100511312 /* BLGiphyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyCollectionViewCell.swift; sourceTree = "<group>"; };
+		F454BC771D885B2100511312 /* BLGiphyToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyToastView.swift; sourceTree = "<group>"; };
+		F454BC781D885B2100511312 /* BLGiphyTopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyTopBarView.swift; sourceTree = "<group>"; };
+		F454BC791D885B2100511312 /* BLGiphyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLGiphyView.swift; sourceTree = "<group>"; };
+		F454BCB51D885BAD00511312 /* GiphyViewExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiphyViewExample-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F454BC1B1D885AA400511312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F454BC151D885AA400511312 = {
+			isa = PBXGroup;
+			children = (
+				F454BCB51D885BAD00511312 /* GiphyViewExample-Bridging-Header.h */,
+				F454BC201D885AA400511312 /* GiphyViewExample */,
+				F454BC1F1D885AA400511312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F454BC1F1D885AA400511312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC1E1D885AA400511312 /* GiphyViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F454BC201D885AA400511312 /* GiphyViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC331D885B2000511312 /* Commom */,
+				F454BC4C1D885B2000511312 /* Giphy */,
+				F454BC211D885AA400511312 /* AppDelegate.swift */,
+				F454BC231D885AA400511312 /* ViewController.swift */,
+				F454BC251D885AA400511312 /* Main.storyboard */,
+				F454BC281D885AA400511312 /* Assets.xcassets */,
+				F454BC2A1D885AA400511312 /* LaunchScreen.storyboard */,
+				F454BC2D1D885AA400511312 /* Info.plist */,
+			);
+			path = GiphyViewExample;
+			sourceTree = "<group>";
+		};
+		F454BC331D885B2000511312 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC341D885B2000511312 /* Classes */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		F454BC341D885B2000511312 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC351D885B2000511312 /* Extensions */,
+				F454BC3C1D885B2000511312 /* Manager */,
+				F454BC451D885B2000511312 /* TSMutableDictionary.h */,
+				F454BC461D885B2000511312 /* TSMutableDictionary.m */,
+				F454BC471D885B2000511312 /* UITouchDownGestureRecognizer.swift */,
+				F454BC481D885B2000511312 /* Utility.swift */,
+				F454BC491D885B2000511312 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F454BC351D885B2000511312 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC361D885B2000511312 /* NSDate+Couting.swift */,
+				F454BC371D885B2000511312 /* NSDictionary+TypeCast.swift */,
+				F454BC381D885B2000511312 /* UIImageView+YLNetworking.h */,
+				F454BC391D885B2000511312 /* UIImageView+YLNetworking.m */,
+				F454BC3A1D885B2000511312 /* UILabel+FitFontSize.swift */,
+				F454BC3B1D885B2000511312 /* UIView+Constrain.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F454BC3C1D885B2000511312 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC3D1D885B2000511312 /* int_type.h */,
+				F454BC3E1D885B2000511312 /* YLImageCache.h */,
+				F454BC3F1D885B2000511312 /* YLImageCache.m */,
+				F454BC401D885B2000511312 /* YLImageDownloader.h */,
+				F454BC411D885B2000511312 /* YLImageDownloader.m */,
+				F454BC421D885B2000511312 /* YLNetworking.h */,
+				F454BC431D885B2000511312 /* YLSessionManager.h */,
+				F454BC441D885B2000511312 /* YLSessionManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F454BC491D885B2000511312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC4A1D885B2000511312 /* BLLongPressGesture.swift */,
+				F454BC4B1D885B2000511312 /* PopOver.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F454BC4C1D885B2000511312 /* Giphy */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC4D1D885B2000511312 /* Extensions */,
+				F454BC521D885B2000511312 /* Manager */,
+				F454BC561D885B2000511312 /* Models */,
+				F454BC591D885B2000511312 /* Resources */,
+				F454BC6F1D885B2000511312 /* Views */,
+			);
+			path = Giphy;
+			sourceTree = "<group>";
+		};
+		F454BC4D1D885B2000511312 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC4E1D885B2000511312 /* UIImage+SwiftyGif.swift */,
+				F454BC4F1D885B2000511312 /* UIImageView+GiphyNetworking.swift */,
+				F454BC501D885B2000511312 /* UIImageView+SwiftyGif.swift */,
+				F454BC511D885B2000511312 /* YLImageDowloader+GifDownload.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F454BC521D885B2000511312 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC531D885B2000511312 /* BLDisplayGifManager.swift */,
+				F454BC541D885B2000511312 /* BLGIFCache.swift */,
+				F454BC551D885B2000511312 /* BLGiphyRequestManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F454BC561D885B2000511312 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC571D885B2000511312 /* BLGiphyManager.swift */,
+				F454BC581D885B2000511312 /* GiphyInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F454BC591D885B2000511312 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC5A1D885B2000511312 /* Delete Filled_dark.png */,
+				F454BC5B1D885B2000511312 /* Delete Filled_light.png */,
+				F454BC5C1D885B2000511312 /* Globe.png */,
+				F454BC5D1D885B2000511312 /* Happy Filled_dark.png */,
+				F454BC5E1D885B2000511312 /* Happy Filled_light.png */,
+				F454BC5F1D885B2000511312 /* Happy_dark.png */,
+				F454BC601D885B2000511312 /* Happy_light.png */,
+				F454BC611D885B2000511312 /* Home Filled_dark.png */,
+				F454BC621D885B2000511312 /* Home Filled_light.png */,
+				F454BC631D885B2000511312 /* Home_dark.png */,
+				F454BC641D885B2000511312 /* Home_light.png */,
+				F454BC651D885B2000511312 /* Line Chart Filled_dark.png */,
+				F454BC661D885B2000511312 /* Line Chart Filled_light.png */,
+				F454BC671D885B2000511312 /* Line Chart_dark.png */,
+				F454BC681D885B2000511312 /* Line Chart_light.png */,
+				F454BC691D885B2000511312 /* ring-alt.gif */,
+				F454BC6A1D885B2000511312 /* ripple-80.gif */,
+				F454BC6B1D885B2000511312 /* Time Filled_dark.png */,
+				F454BC6C1D885B2000511312 /* Time Filled_light.png */,
+				F454BC6D1D885B2000511312 /* Time_dark.png */,
+				F454BC6E1D885B2000511312 /* Time_light.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F454BC6F1D885B2000511312 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F454BC701D885B2000511312 /* BLCollectionViewFlowLayout.swift */,
+				F454BC711D885B2000511312 /* BLGif.swift */,
+				F454BC721D885B2000511312 /* BLGifView.swift */,
+				F454BC731D885B2000511312 /* BLGiphyBottomBarView.swift */,
+				F454BC741D885B2000511312 /* BLGiphyButtonControl.swift */,
+				F454BC751D885B2100511312 /* BLGiphyCollectionView.swift */,
+				F454BC761D885B2100511312 /* BLGiphyCollectionViewCell.swift */,
+				F454BC771D885B2100511312 /* BLGiphyToastView.swift */,
+				F454BC781D885B2100511312 /* BLGiphyTopBarView.swift */,
+				F454BC791D885B2100511312 /* BLGiphyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F454BC1D1D885AA400511312 /* GiphyViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F454BC301D885AA400511312 /* Build configuration list for PBXNativeTarget "GiphyViewExample" */;
+			buildPhases = (
+				F454BC1A1D885AA400511312 /* Sources */,
+				F454BC1B1D885AA400511312 /* Frameworks */,
+				F454BC1C1D885AA400511312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiphyViewExample;
+			productName = GiphyViewExample;
+			productReference = F454BC1E1D885AA400511312 /* GiphyViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F454BC161D885AA400511312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Quach Ha Chan Thanh";
+				TargetAttributes = {
+					F454BC1D1D885AA400511312 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F454BC191D885AA400511312 /* Build configuration list for PBXProject "GiphyViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F454BC151D885AA400511312;
+			productRefGroup = F454BC1F1D885AA400511312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F454BC1D1D885AA400511312 /* GiphyViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F454BC1C1D885AA400511312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F454BC991D885B2100511312 /* Home Filled_light.png in Resources */,
+				F454BC941D885B2100511312 /* Happy Filled_dark.png in Resources */,
+				F454BC2C1D885AA400511312 /* LaunchScreen.storyboard in Resources */,
+				F454BCA01D885B2100511312 /* ring-alt.gif in Resources */,
+				F454BCA21D885B2100511312 /* Time Filled_dark.png in Resources */,
+				F454BC951D885B2100511312 /* Happy Filled_light.png in Resources */,
+				F454BC971D885B2100511312 /* Happy_light.png in Resources */,
+				F454BCA11D885B2100511312 /* ripple-80.gif in Resources */,
+				F454BC961D885B2100511312 /* Happy_dark.png in Resources */,
+				F454BC931D885B2100511312 /* Globe.png in Resources */,
+				F454BC9E1D885B2100511312 /* Line Chart_dark.png in Resources */,
+				F454BC921D885B2100511312 /* Delete Filled_light.png in Resources */,
+				F454BC9A1D885B2100511312 /* Home_dark.png in Resources */,
+				F454BC911D885B2100511312 /* Delete Filled_dark.png in Resources */,
+				F454BC981D885B2100511312 /* Home Filled_dark.png in Resources */,
+				F454BC9F1D885B2100511312 /* Line Chart_light.png in Resources */,
+				F454BC9C1D885B2100511312 /* Line Chart Filled_dark.png in Resources */,
+				F454BCA41D885B2100511312 /* Time_dark.png in Resources */,
+				F454BC9B1D885B2100511312 /* Home_light.png in Resources */,
+				F454BC291D885AA400511312 /* Assets.xcassets in Resources */,
+				F454BC271D885AA400511312 /* Main.storyboard in Resources */,
+				F454BCA31D885B2100511312 /* Time Filled_light.png in Resources */,
+				F454BC9D1D885B2100511312 /* Line Chart Filled_light.png in Resources */,
+				F454BCA51D885B2100511312 /* Time_light.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F454BC1A1D885AA400511312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F454BCAB1D885B2100511312 /* BLGiphyCollectionView.swift in Sources */,
+				F454BCA81D885B2100511312 /* BLGifView.swift in Sources */,
+				F454BC7B1D885B2100511312 /* NSDate+Couting.swift in Sources */,
+				F454BCAC1D885B2100511312 /* BLGiphyCollectionViewCell.swift in Sources */,
+				F454BC8E1D885B2100511312 /* BLGiphyRequestManager.swift in Sources */,
+				F454BC871D885B2100511312 /* PopOver.swift in Sources */,
+				F454BCAD1D885B2100511312 /* BLGiphyToastView.swift in Sources */,
+				F454BC841D885B2100511312 /* UITouchDownGestureRecognizer.swift in Sources */,
+				F454BCAF1D885B2100511312 /* BLGiphyView.swift in Sources */,
+				F454BC7C1D885B2100511312 /* NSDictionary+TypeCast.swift in Sources */,
+				F454BC241D885AA400511312 /* ViewController.swift in Sources */,
+				F454BC891D885B2100511312 /* UIImageView+GiphyNetworking.swift in Sources */,
+				F454BC901D885B2100511312 /* GiphyInfo.swift in Sources */,
+				F454BC7D1D885B2100511312 /* UIImageView+YLNetworking.m in Sources */,
+				F454BC8A1D885B2100511312 /* UIImageView+SwiftyGif.swift in Sources */,
+				F454BC7F1D885B2100511312 /* UIView+Constrain.swift in Sources */,
+				F454BC801D885B2100511312 /* YLImageCache.m in Sources */,
+				F454BCAA1D885B2100511312 /* BLGiphyButtonControl.swift in Sources */,
+				F454BC851D885B2100511312 /* Utility.swift in Sources */,
+				F454BC811D885B2100511312 /* YLImageDownloader.m in Sources */,
+				F454BCA61D885B2100511312 /* BLCollectionViewFlowLayout.swift in Sources */,
+				F454BC881D885B2100511312 /* UIImage+SwiftyGif.swift in Sources */,
+				F454BC8C1D885B2100511312 /* BLDisplayGifManager.swift in Sources */,
+				F454BC861D885B2100511312 /* BLLongPressGesture.swift in Sources */,
+				F454BC7E1D885B2100511312 /* UILabel+FitFontSize.swift in Sources */,
+				F454BC221D885AA400511312 /* AppDelegate.swift in Sources */,
+				F454BC8B1D885B2100511312 /* YLImageDowloader+GifDownload.swift in Sources */,
+				F454BC821D885B2100511312 /* YLSessionManager.m in Sources */,
+				F454BC8D1D885B2100511312 /* BLGIFCache.swift in Sources */,
+				F454BC831D885B2100511312 /* TSMutableDictionary.m in Sources */,
+				F454BCA91D885B2100511312 /* BLGiphyBottomBarView.swift in Sources */,
+				F454BCAE1D885B2100511312 /* BLGiphyTopBarView.swift in Sources */,
+				F454BCA71D885B2100511312 /* BLGif.swift in Sources */,
+				F454BC8F1D885B2100511312 /* BLGiphyManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F454BC251D885AA400511312 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F454BC261D885AA400511312 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F454BC2A1D885AA400511312 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F454BC2B1D885AA400511312 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F454BC2E1D885AA400511312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F454BC2F1D885AA400511312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F454BC311D885AA400511312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GiphyViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhqhc.GiphyViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiphyViewExample-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F454BC321D885AA400511312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GiphyViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhqhc.GiphyViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiphyViewExample-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F454BC191D885AA400511312 /* Build configuration list for PBXProject "GiphyViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F454BC2E1D885AA400511312 /* Debug */,
+				F454BC2F1D885AA400511312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F454BC301D885AA400511312 /* Build configuration list for PBXNativeTarget "GiphyViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F454BC311D885AA400511312 /* Debug */,
+				F454BC321D885AA400511312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F454BC161D885AA400511312 /* Project object */;
+}
